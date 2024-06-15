@@ -1,0 +1,62 @@
+.contact-info {
+    background-color: #fce0c5;
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.contact-info h1 {
+    text-align: center;
+    color: #333;
+}
+.contact-info h4 {
+    text-align: center;
+    color: #333;
+}
+.contact-info p {
+    margin-bottom: 10px;
+    color: #666;
+    text-align: center;
+}
+.contact-info a {
+    color:#e6b8a2;
+    text-decoration: none;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    overflow-x: auto; /* Горизонтальная прокрутка, если иконок много */
+}
+
+.social-icons img {
+    width: 65px; /* Устанавливаем ширину иконки */
+    height: 65px; /* Устанавливаем высоту иконки */
+    margin: 0 10px; /* Добавляем отступы между иконками */
+    margin-top: -10px;
+    display: inline-block; /* Отображаем иконки в одной строке */
+}
+
+footer {
+    background-color:#b78e72;
+    padding: 5px;
+    text-align: left;
+    margin-top: 20px;
+    border-top: 2px solid black;
+  }
+
+@media only screen and (max-width: 600px) {
+    .contact-info {
+        width: 70%;
+        padding: 15px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .social-icons img {
+        width: 40px; /* Уменьшаем ширину иконки для мобильных устройств */
+        height: 40px; /* Уменьшаем высоту иконки для мобильных устройств */
+        margin: 0 5px; /* Уменьшаем отступы между иконками для мобильных устройств */
+        margin-top: -10px;
+    }
+}
